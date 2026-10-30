@@ -1,0 +1,16 @@
+name = "RTD"
+uuid = "5b1f2c3e-8a4d-4e6b-9c1a-2d3e4f5a6b7c"
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c2e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaa"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+# Other packages (Plots, CSV, DataFrames, OrdinaryDiffEq, Interpolations, Optim, Roots)
+# are added with Pkg.add by S4, see README.md. That writes the correct UUIDs here.
